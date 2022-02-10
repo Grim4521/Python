@@ -1,11 +1,13 @@
 f = open("QuizScore.txt","x")
 import time
+def startfunc():
+    print ("Lets start")
 print ("Hello and welcome to my Quiz")
 time.sleep(1)
 while True:
     yes = input ("If you want to start please type yes ")
     if yes.lower() == "yes":
-        print ("Lets start")
+        startfunc()
         break
 else:
     print ("Goodbye")
