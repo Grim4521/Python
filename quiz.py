@@ -44,7 +44,7 @@ else:
 time.sleep(1)
 print ("Question 3")
 time.sleep(0.5)
-question3 = input("What year did Steve Jobs? ")
+question3 = input("What year did Steve Jobs Die? ")
 if question3.lower() == "2011":
     print ("Well Done",name)
     f.write("1")
